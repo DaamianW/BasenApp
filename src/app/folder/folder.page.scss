@@ -9,20 +9,20 @@ ion-content {
   * {
     font-family: lato;
   }
-  
+
   .main-header {
     height: 45vh;
     width: 150%;
-    background: linear-gradient(
-      90deg,
-      var(--ion-color-tertiary) 10%,
-      var(--ion-color-primary) 100%
-      );
+    // background: linear-gradient(
+    //   90deg,
+    //   var(--ion-color-tertiary) 10%,
+    //   var(--ion-color-primary) 100%
+    //   );
     box-shadow: 0 1px 10px var(--ion-color-light);
     border-radius: 0 0 50% 50%;
     margin-left: -14vh;
     margin-top: -60px;
-    background-image: url('/assets/icon/hero-img.jpg');
+    background-image: url("/assets/icon/hero-img.jpg");
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover; /* Resize the background image to cover the entire container */
@@ -67,7 +67,7 @@ ion-content {
               letter-spacing: 0.7px;
               text-transform: uppercase;
               color: #000000;
-              font-size: 1.6rem;
+              font-size: 1.5rem;
             }
           }
         }

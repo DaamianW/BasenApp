@@ -17,7 +17,12 @@ export class FolderPage implements OnInit {
       page: 'folder/grafik/grafik.module',
     },
     { id: 2, name: 'cennik', src: 'assets/icon/cennik(1).png', page: '' },
-    { id: 3, name: 'regulamin', src: 'assets/icon/regulamin(1).png', page: '' },
+    {
+      id: 3,
+      name: 'regulamin',
+      src: 'assets/icon/regulamin(1).png',
+      page: '',
+    },
     { id: 4, name: 'kontakt', src: 'assets/icon/kontakt(1).png', page: '' },
     { id: 5, name: 'mapa', src: 'assets/icon/mapa.png', page: '' },
     { id: 6, name: 'badanie wody', src: 'assets/icon/test.png', page: '' },
