@@ -12,6 +12,10 @@ const routes: Routes = [
     path: 'grafik',
     loadChildren: () => import('./grafik/grafik.module').then( m => m.GrafikPageModule)
   },
+  {
+    path: 'grafik-nastepny-dzien',
+    loadChildren: () => import('./grafik-nastepny-dzien/grafik-nastepny-dzien.module').then( m => m.GrafikNastepnyDzienPageModule)
+  },
 ];
 
 @NgModule({
