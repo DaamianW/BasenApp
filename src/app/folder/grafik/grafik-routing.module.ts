@@ -6,8 +6,8 @@ import { GrafikPage } from './grafik.page';
 const routes: Routes = [
   {
     path: '',
-    component: GrafikPage
-  }
+    component: GrafikPage,
+  },
 ];
 
 @NgModule({
